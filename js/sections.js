@@ -158,13 +158,13 @@ var scrollVis = function() {
       .attr("class", "title openvis-title")
       .attr("x", width / 2)
       .attr("y", height / 3)
-      .text("2013");
+      .text("Climate Change");
 
     g.append("text")
       .attr("class", "sub-title openvis-title")
       .attr("x", width / 2)
       .attr("y", (height / 3) + (height / 5) )
-      .text("Climate Change");
+      .text("Sea Level Rise");
 
     g.selectAll(".openvis-title")
       .attr("opacity", 0);
@@ -180,7 +180,7 @@ var scrollVis = function() {
       .attr("class", "sub-title count-title")
       .attr("x", width / 2)
       .attr("y", (height / 3) + (height / 5) )
-      .text("Andrea");
+      .text("2050");
 
     g.selectAll(".count-title")
       .attr("opacity", 0);
