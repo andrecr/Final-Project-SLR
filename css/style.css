@@ -26,7 +26,7 @@
 }
 
 #sections .title {
-  font-family: Arial,Helvetica,"san-serif";
+  font-family: Avenir,Avenir,"Avenir";
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 2px;
@@ -50,12 +50,12 @@
 }
 
 #vis .title {
-  font-size:120px;
+  font-size:80px;
   text-anchor: middle;
 }
 
 #vis .sub-title {
-  font-size:80px;
+  font-size:60px;
   text-anchor: middle;
 }
 
