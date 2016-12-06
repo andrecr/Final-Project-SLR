@@ -45,7 +45,7 @@ var scrollVis = function() {
     .rangeBands([0, height - 50], 0.1, 0.1);
 
   // Color is determined just by the index of the bars
-  var barColors = {0: "#008080", 1: "#399785", 2: "#5AAF8C"};
+  var barColors = {0: "#669990", 1: "#399785", 2: "#5AAF8C"};
 
   // The histogram display shows the
   // first 30 minutes of data
@@ -63,7 +63,7 @@ var scrollVis = function() {
   // color value.
   var coughColorScale = d3.scale.linear()
     .domain([0,1.0])
-    .range(["#008080", "red"]);
+    .range(["#008080", "blue"]);
 
   // You could probably get fancy and
   // use just one axis, modifying the
@@ -162,8 +162,8 @@ var scrollVis = function() {
 
     g.append("text")
       .attr("class", "sub-title openvis-title")
-      .attr("x", width / 2)
-      .attr("y", (height / 3) + (height / 5) )
+      .attr("x", width / 1)
+      .attr("y", (height / 2) + (height / 5) )
       .text("Sea Level Rise");
 
     g.selectAll(".openvis-title")
