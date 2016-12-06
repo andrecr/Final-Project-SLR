@@ -164,7 +164,7 @@ var scrollVis = function() {
       .attr("class", "sub-title openvis-title")
       .attr("x", width / 2)
       .attr("y", (height / 3) + (height / 5) )
-      .text("OpenVis Conf");
+      .text("Climate Change");
 
     g.selectAll(".openvis-title")
       .attr("opacity", 0);
@@ -174,13 +174,13 @@ var scrollVis = function() {
       .attr("class", "title count-title highlight")
       .attr("x", width / 2)
       .attr("y", height / 3)
-      .text("180");
+      .text("7 inches");
 
     g.append("text")
       .attr("class", "sub-title count-title")
       .attr("x", width / 2)
       .attr("y", (height / 3) + (height / 5) )
-      .text("Filler Words");
+      .text("Andrea");
 
     g.selectAll(".count-title")
       .attr("opacity", 0);
